@@ -10,7 +10,7 @@ export function RecordBox({ title, desc, imgSrc, id }) {
     return (
         <div
             role="button"
-            className="border-[24px] border-primary-300 aspect-square flex flex-col gap-2 items-center justify-center relative bg-dark-custom"
+            className="border-[24px] border-primary-300 aspect-square flex flex-col gap-2 items-center justify-center relative bg-dark-custom cursor-pointer"
             onClick={() => moveTo(id)}
         >
             <img

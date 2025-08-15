@@ -10,6 +10,8 @@ import MainLayout from './layouts/MainLayout'
 import Login from './pages/Login'
 import TopPage from './pages/TopPage'
 import RecordPage from './pages/RecordPage'
+import ColumnPage from './pages/ColumnPage'
+import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
   return (
@@ -25,6 +27,10 @@ function App() {
                 <Route path={ROUTES.INDEX} element={<TopPage />} />
                 <Route path={ROUTES.MY_RECORD} element={<RecordPage />} />
               </Route>
+            </Route>
+            <Route element={<MainLayout />}>
+              <Route path={ROUTES.COLUMN} element={<ColumnPage />} />
+              <Route path="*" element={<NotFoundPage />} />
             </Route>
           </Routes>
         </BrowserRouter>

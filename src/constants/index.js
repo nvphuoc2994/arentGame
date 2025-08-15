@@ -11,6 +11,13 @@ export const RECORDS_ID = {
     'diary': 'diary',
 }
 
+export const RECOMMENDS = [
+    { title: 'RECOMMENDED COLUMN', description: 'オススメ' },
+    { title: 'RECOMMENDED DIET', description: 'ダイエット' },
+    { title: 'RECOMMENDED BEAUTY', description: '美容' },
+    { title: 'RECOMMENDED HEALTH', description: '健康' },
+];
+
 export const RECORDS = [
     {
         id: RECORDS_ID.body,
@@ -118,6 +125,13 @@ export const subNavs = [
         title: "設定",
         to: "/setting",
     },
+    {
+        title: "ログアウト",
+        onClick: () => {
+            localStorage.removeItem('token');
+            window.location.href = ROUTES.LOGIN;
+        },
+    }
 ];
 
 export const navFoots = [

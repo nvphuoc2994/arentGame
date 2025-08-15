@@ -32,7 +32,7 @@ export default function RecordChart() {
                 <span className="w-24 h-9 text-[15px] leading-5 uppercase">Body record</span>
                 <span className="text-[22px]">2021.05.21</span>
             </h3>
-            <div className="h-52">
+            <div className="h-52 px-3">
                 <LineChart data={bodyRecord} />
             </div>
             <div className="flex items-center gap-4 mt-2">

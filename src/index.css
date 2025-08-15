@@ -26,6 +26,7 @@
 @layer base {
     body {
         font-family: 'Inter', sans-serif;
+        -webkit-font-smoothing: antialiased;
     }
 }
 
@@ -35,20 +36,39 @@
 }
 
 @layer components {
-    body {
-        font-family: 'Inter', sans-serif;
-    }
-
     .font-hkgp {
         font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
     }
 
+    .font-inter {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background-color: var(--color-primary-300);
+        border-radius: 9999px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-track {
+        background-color: var(--color-dark-400);
+        border-radius: 9999px;
+    }
+
+    .bg-dark-custom {
+        background-color: lch(18.94 0.01 0 / 0.6);
+    }
+
     .bg-gradient-primary {
-        background: linear-gradient(155.89deg, var(--color-primary-300), var(--color-primary-500));
+        background: linear-gradient(155.89deg, var(--color-primary-300) 8.26%, var(--color-primary-400) 91.18%);
     }
 
     .btn-primary {
-        background: linear-gradient(32.95deg, var(--color-primary-300), var(--color-primary-500));
+        background: linear-gradient(32.95deg, var(--color-primary-300) 8.75%, var(--color-primary-400) 86.64%);
         height: 56px;
         border-radius: 4px;
         font-weight: 300;

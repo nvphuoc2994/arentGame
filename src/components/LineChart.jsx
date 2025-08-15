@@ -33,7 +33,11 @@ export const options = {
                 display: true,
                 color: 'white',
                 lineWidth: 0.5,
+                drawBorder: false,
             },
+            border: {
+                display: false
+            }
         },
         y: {
             display: false,
