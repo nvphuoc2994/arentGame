@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "data": {
+    "record1": [
+      {
+        "time": "10時",
+        "weight": 58
+      },
+      {
+        "time": "11時",
+        "weight": 55
+      },
+      {
+        "time": "12時",
+        "weight": 51
+      },
+      {
+        "time": "13時",
+        "weight": 54
+      },
+      {
+        "time": "14時",
+        "weight": 50
+      },
+      {
+        "time": "15時",
+        "weight": 50
+      },
+      {
+        "time": "16時",
+        "weight": 42
+      },
+      {
+        "time": "17時",
+        "weight": 49.5
+      },
+      {
+        "time": "18時",
+        "weight": 52
+      },
+      {
+        "time": "19時",
+        "weight": 49.5
+      },
+      {
+        "time": "20時",
+        "weight": 49
+      },
+      {
+        "time": "21時",
+        "weight": 47.5
+      }
+    ],
+    "record2": [
+      {
+        "time": "10時",
+        "weight": 60
+      },
+      {
+        "time": "11時",
+        "weight": 53
+      },
+      {
+        "time": "12時",
+        "weight": 54
+      },
+      {
+        "time": "13時",
+        "weight": 53.5
+      },
+      {
+        "time": "14時",
+        "weight": 50
+      },
+      {
+        "time": "15時",
+        "weight": 50
+      },
+      {
+        "time": "16時",
+        "weight": 49
+      },
+      {
+        "time": "17時",
+        "weight": 41.5
+      },
+      {
+        "time": "18時",
+        "weight": 48
+      },
+      {
+        "time": "19時",
+        "weight": 46.5
+      },
+      {
+        "time": "20時",
+        "weight": 46
+      },
+      {
+        "time": "21時",
+        "weight": 47.5
+      }
+    ]
+  }
+}

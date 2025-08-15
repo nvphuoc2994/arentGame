@@ -56,4 +56,12 @@
         width: 296px;
         font-size: 18px;
     }
+
+    .polygon {
+        clip-path: polygon(50% 1%, 100% 28%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    }
+
+    canvas {
+        max-width: 100%;
+    }
 }

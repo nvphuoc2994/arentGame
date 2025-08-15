@@ -7,8 +7,8 @@ import { queryClient } from './configs/queryClient'
 import { ROUTES } from './constants'
 import { AuthProvider } from './contexts/AuthContext'
 import MainLayout from './layouts/MainLayout'
-import Home from './pages/Home'
 import Login from './pages/Login'
+import TopPage from './pages/TopPage'
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
             </Route>
             <Route element={<ProtectedRoute />}>
               <Route element={<MainLayout />}>
-                <Route path={ROUTES.INDEX} element={<Home />} />
+                <Route path={ROUTES.INDEX} element={<TopPage />} />
               </Route>
             </Route>
           </Routes>

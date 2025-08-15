@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "data": {
+    "record1": [
+      {
+        "time": "6月",
+        "weight": 58
+      },
+      {
+        "time": "7月",
+        "weight": 58
+      },
+      {
+        "time": "8月",
+        "weight": 51
+      },
+      {
+        "time": "9月",
+        "weight": 53
+      },
+      {
+        "time": "10月",
+        "weight": 52
+      },
+      {
+        "time": "11月",
+        "weight": 49
+      },
+      {
+        "time": "12月",
+        "weight": 49
+      },
+      {
+        "time": "1月",
+        "weight": 49.5
+      },
+      {
+        "time": "2月",
+        "weight": 48
+      },
+      {
+        "time": "3月",
+        "weight": 47.5
+      },
+      {
+        "time": "4月",
+        "weight": 49
+      },
+      {
+        "time": "5月",
+        "weight": 49.5
+      }
+    ],
+    "record2": [
+      {
+        "time": "6月",
+        "weight": 58
+      },
+      {
+        "time": "7月",
+        "weight": 57
+      },
+      {
+        "time": "8月",
+        "weight": 50
+      },
+      {
+        "time": "9月",
+        "weight": 50
+      },
+      {
+        "time": "10月",
+        "weight": 40
+      },
+      {
+        "time": "11月",
+        "weight": 40
+      },
+      {
+        "time": "12月",
+        "weight": 40
+      },
+      {
+        "time": "1月",
+        "weight": 48.5
+      },
+      {
+        "time": "2月",
+        "weight": 48
+      },
+      {
+        "time": "3月",
+        "weight": 46.5  
+      },
+      {
+        "time": "4月",
+        "weight": 46
+      },
+      {
+        "time": "5月",
+        "weight": 45.5
+      }
+    ]
+  }
+}

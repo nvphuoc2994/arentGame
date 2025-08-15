@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "total": 20,
+  "page": 1,
+  "nextPage": 2,
+  "data": [
+    {
+      "imgSrc": "/images/m01.jpg",
+      "date": "05.21",
+      "type": "morning"
+    },
+    {
+      "imgSrc": "/images/l03.jpg",
+      "date": "05.21",
+      "type": "lunch"
+    },
+    {
+      "imgSrc": "/images/d01.jpg",
+      "date": "05.21",
+      "type": "dinner"
+    },
+    {
+      "imgSrc": "/images/l01.jpg",
+      "date": "05.21",
+      "type": "lunch"
+    },
+    {
+      "imgSrc": "/images/m02.jpg",
+      "date": "05.21",
+      "type": "morning"
+    },
+    {
+      "imgSrc": "/images/l02.jpg",
+      "date": "05.21",
+      "type": "lunch"
+    },
+    {
+      "imgSrc": "/images/d02.jpg",
+      "date": "05.21",
+      "type": "dinner"
+    },
+    {
+      "imgSrc": "/images/s01.jpg",
+      "date": "05.21",
+      "type": "snack"
+    }
+  ]
+}

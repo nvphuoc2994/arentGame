@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "data": {
+    "record1": [
+      {
+        "time": "8日",
+        "weight": 60
+      },
+      {
+        "time": "9日",
+        "weight": 38
+      },
+      {
+        "time": "10日",
+        "weight": 40
+      },
+      {
+        "time": "11日",
+        "weight": 58
+      },
+      {
+        "time": "12日",
+        "weight": 42
+      },
+      {
+        "time": "13日",
+        "weight": 54
+      },
+      {
+        "time": "14日",
+        "weight": 56
+      },
+      {
+        "time": "15日",
+        "weight": 51
+      },
+      {
+        "time": "16日",
+        "weight": 53
+      },
+      {
+        "time": "17日",
+        "weight": 50
+      },
+      {
+        "time": "18日",
+        "weight": 50
+      },
+      {
+        "time": "19日",
+        "weight": 49
+      },
+      {
+        "time": "20日",
+        "weight": 48
+      },
+      {
+        "time": "21日",
+        "weight": 47
+      }
+    ],
+    "record2": [
+      {
+        "time": "8日",
+        "weight": 60
+      },
+      {
+        "time": "9日",
+        "weight": 57
+      },
+      {
+        "time": "10日",
+        "weight": 40
+      },
+      {
+        "time": "11日",
+        "weight": 50
+      },
+      {
+        "time": "12日",
+        "weight": 40
+      },
+      {
+        "time": "13日",
+        "weight": 40
+      },
+      {
+        "time": "14日",
+        "weight": 50
+      },
+      {
+        "time": "15日",
+        "weight": 50
+      },
+      {
+        "time": "16日",
+        "weight": 49
+      },
+      {
+        "time": "17日",
+        "weight": 47.5
+      },
+      {
+        "time": "18日",
+        "weight": 48
+      },
+      {
+        "time": "19日",
+        "weight": 46.5
+      },
+      {
+        "time": "20日",
+        "weight": 44
+      },
+      {
+        "time": "21日",
+        "weight": 45.5
+      }
+    ]
+  }
+}

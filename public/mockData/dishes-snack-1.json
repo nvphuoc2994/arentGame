@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "total": 1,
+  "page": 2,
+  "data": [
+    {
+      "imgSrc": "/images/s01.jpg",
+      "date": "05.21",
+      "type": "snack"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "success": true,
+  "data": {
+    "record1": [
+      {
+        "time": "16週",
+        "weight": 51
+      },
+      {
+        "time": "17週",
+        "weight": 53
+      },
+      {
+        "time": "18週",
+        "weight": 56
+      },
+      {
+        "time": "19週",
+        "weight": 57
+      },
+      {
+        "time": "20週",
+        "weight": 56
+      },
+      {
+        "time": "21週",
+        "weight": 50.5
+      },
+      {
+        "time": "22週",
+        "weight": 50
+      },
+      {
+        "time": "23週",
+        "weight": 49.5
+      },
+      {
+        "time": "24週",
+        "weight": 49
+      },
+      {
+        "time": "25週",
+        "weight": 48.5
+      }
+    ],
+    "record2": [
+      {
+        "time": "16週",
+        "weight": 53
+      },
+      {
+        "time": "17週",
+        "weight": 56.5
+      },
+      {
+        "time": "18週",
+        "weight": 50
+      },
+      {
+        "time": "19週",
+        "weight": 52
+      },
+      {
+        "time": "20週",
+        "weight": 49
+      },
+      {
+        "time": "21週",
+        "weight": 48.5
+      },
+      {
+        "time": "22週",
+        "weight": 48
+      },
+      {
+        "time": "23週",
+        "weight": 49
+      },
+      {
+        "time": "24週",
+        "weight": 49
+      },
+      {
+        "time": "25週",
+        "weight": 48.5
+      }
+    ]
+  }
+}
