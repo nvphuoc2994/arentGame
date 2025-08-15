@@ -1,19 +1,33 @@
 import { QueryClientProvider } from '@tanstack/react-query'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { queryClient } from './configs/queryClient'
-import Login from './pages/Login'
 import './App.css'
+import ProtectedRoute from './components/ProtectedRoute'
+import UnAuthRoute from './components/UnAuthRoute'
+import { queryClient } from './configs/queryClient'
+import { ROUTES } from './constants'
+import { AuthProvider } from './contexts/AuthContext'
+import MainLayout from './layouts/MainLayout'
+import Home from './pages/Home'
+import Login from './pages/Login'
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/login" element={<Login />} />
-          {/* <Route path="/" element={<Home />} /> */}
-        </Routes>
-      </BrowserRouter>
-    </QueryClientProvider>
+    <AuthProvider>
+      <QueryClientProvider client={queryClient}>
+        <BrowserRouter>
+          <Routes>
+            <Route element={<UnAuthRoute />}>
+              <Route path={ROUTES.LOGIN} element={<Login />} />
+            </Route>
+            <Route element={<ProtectedRoute />}>
+              <Route element={<MainLayout />}>
+                <Route path={ROUTES.INDEX} element={<Home />} />
+              </Route>
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </QueryClientProvider>
+    </AuthProvider>
   )
 }
 
